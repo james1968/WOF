@@ -30,7 +30,7 @@ class WOFPlayer:
 class WOFHumanPlayer(WOFPlayer):
 
     def getMove(self, category, obscuredPhrase, guessed):
-        move = input("Guess a letter, phrase, or type 'exit' or 'pass':")
+        move = input("Guess  letter, phrase, or type 'exit' or 'pass':")
 
 
 # Write the WOFComputerPlayer class definition (part C) here
